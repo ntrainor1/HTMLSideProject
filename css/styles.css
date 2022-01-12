@@ -58,6 +58,15 @@ body {
   padding: 4vw;
 }
 
+.homeText {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Cinzel', serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 4vw;
+}
+
 h1 {
   font-weight: bold;
   font-size: 5vw;
