@@ -16,16 +16,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
 
   <title>Root and Twig</title>
-
-  <!-- Single html page strategy -->
-  <script>
-    function show(shown, hidden, hidden2) {
-      document.getElementById(shown).style.display='block';
-      document.getElementById(hidden).style.display='none';
-      document.getElementById(hidden2).style.display='none';
-      return false;
-    }
-  </script>
 </head>
 <body>
   <!-- Home Section -->
@@ -180,13 +170,13 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#" onclick="return show('homeSection','aboutSection','sampleSection');">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#" onclick="topFunction(); return show('homeSection','aboutSection','sampleSection');">Home<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" onclick="return show('aboutSection','homeSection','sampleSection');">About<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#" onclick="topFunction(); return show('aboutSection','homeSection','sampleSection');">About<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" onclick="return show('sampleSection','homeSection','aboutSection');">Sample<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#" onclick="topFunction(); return show('sampleSection','homeSection','aboutSection');">Sample<span class="sr-only">(current)</span></a>
         </li>
       </ul>
     </div>

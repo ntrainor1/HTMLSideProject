@@ -8,6 +8,17 @@ $(function() {
   });
 });
 
+function show(shown, hidden, hidden2) {
+  document.getElementById(shown).style.display='block';
+  document.getElementById(hidden).style.display='none';
+  document.getElementById(hidden2).style.display='none';
+  return false;
+}
+
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
 
 function Slider(obj) {
   this.images = $(obj.images);
