@@ -41,6 +41,7 @@ body {
 }
 
 #aboutSection {
+  margin-top: 66px;
   font-weight: bold;
   font-size: 15px;
   font-family: 'Cinzel', serif;
@@ -50,6 +51,7 @@ body {
 }
 
 #sampleSection {
+  margin-top: 66px;
   font-weight: bold;
   font-size: 15px;
   font-family: 'Cinzel', serif;
@@ -164,7 +166,7 @@ background-image {
 }
 
 #contactSection {
-    background-color: rgb(0, 5, 0);
+  background-color: rgb(0, 5, 0);
   font-weight: bold;
   font-size: 15px;
   font-family: 'Cinzel', serif;
